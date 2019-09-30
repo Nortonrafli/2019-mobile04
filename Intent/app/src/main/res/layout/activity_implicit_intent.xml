@@ -21,12 +21,11 @@
 
     <ImageView
         android:id="@+id/image_avatar"
-        android:layout_width="128dp"
+        android:layout_width="143dp"
         android:layout_height="128dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:src="@mipmap/avatar"
-        />
+        android:src="@mipmap/avatar" />
 
     <Button
         android:text="@string/change_avatar"
