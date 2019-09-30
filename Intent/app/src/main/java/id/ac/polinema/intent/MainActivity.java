@@ -1,16 +1,13 @@
 package id.ac.polinema.intent;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
 
 
     @Override
@@ -21,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handleExplicitIntent(View view) {
-        Intent intent = new Intent(this, ExplicitIntentActivity.class);
+        Intent intent = new Intent(this,ExplicitIntentActivity.class);
         startActivity(intent);
 
     }
@@ -31,17 +28,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handleImplicitIntent(View view) {
-        Intent intent = new Intent(this, ImplicitIntentActivity.class);
+        Intent intent = new Intent(this,ImplicitIntentActivity.class);
         startActivity(intent);
     }
 
     public void handleBundle(View view) {
-        Intent intent = new Intent(this, BundleActivity.class);
+        Intent intent = new Intent(this,BundleActivity.class);
         startActivity(intent);
     }
 
     public void handleParcelebel(View view) {
-        Intent intent = new Intent(this, ParcelableActivity.class);
+        Intent intent = new Intent(this,ParcelableActivity.class);
         startActivity(intent);
 
     }

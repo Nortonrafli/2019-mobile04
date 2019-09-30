@@ -1,11 +1,9 @@
 package id.ac.polinema.intent;
 
+import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.TextView;
 
 public class ProfileBundleActivity extends AppCompatActivity {
 
